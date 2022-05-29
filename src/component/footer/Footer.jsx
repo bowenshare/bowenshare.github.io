@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
-const logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
+const logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Digital Agency" />;
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
+    // {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
+    // {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
+    // {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 
 class Footer extends Component{
@@ -19,16 +19,16 @@ class Footer extends Component{
                     <div className="im-call-to-action-area ptb--70 im-separator">
                         <div className="container">
                             <div className="row align-items-center">
-                                <div className="col-lg-8 col-xl-6 col-md-12 col-sm-12 col-12">
+                                <div className="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-12">
                                     <div className="inner">
                                         <h2 className="text-white mb--0">Enough Talk, Let's Build Something Together</h2>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-xl-4 offset-xl-2 col-md-12 col-sm-12 col-12">
+                                {/* <div className="col-lg-4 col-xl-4 offset-xl-2 col-md-12 col-sm-12 col-12">
                                     <div className="call-to-cation-tbn text-left text-lg-right mt_md--20 mt_sm--20">
-                                        <a className="btn-default btn-large btn-border btn-opacity" href="#button">Read Out Now</a>
+                                        <a className="btn-default btn-large btn-border btn-opacity" href="#button">Just Do</a>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ class Footer extends Component{
                                                 {logoUrl}
                                             </Link>
                                         </div>
-                                        <p>Copyright © 2022 <Link to="/">Imroz</Link> React Template. Built with love in Bangladesh All rights reserved.</p>
+                                        <p>Copyright © 2022 All rights reserved.</p>
                                     </div>
                                 </div>
                                 

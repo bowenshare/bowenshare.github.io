@@ -3,7 +3,7 @@ import ScrollToTop from 'react-scroll-up';
 import ModalVideo from 'react-modal-video';
 import { FiChevronUp, FiCheck } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
-import HeaderTwo from "../component/header/HeaderTwo";
+import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo"
 import BrandTwo from "../elements/BrandTwo";
 import PortfolioList from "../elements/portfolio/PortfolioList";
@@ -13,10 +13,10 @@ import CallAction from "../elements/callaction/CallAction";
 const SlideList = [
     {
         textPosition: 'text-left',
-        category: 'Freelance digital designer',
-        title: 'Hello, I’m <span>Fatima.</span>',
-        description: 'I’m working on a professional, visually sophisticated and technologically <br /> proficient, responsive and multi-functional React Template Imroz.',
-        buttonText: 'Download CV',
+        category: 'WIN WITH GRACE, LOSE WITH DIGNITY',
+        title: 'Hello, I’m <span>Bowen.</span>',
+        description: 'I’m a diligent student.',
+        buttonText: '',
         buttonLink: ''
     }
 ]
@@ -42,9 +42,9 @@ class PersonalPortfolio extends Component {
         description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
         return(
             <Fragment> 
-                <Helmet pageTitle="Personal Portfolio" />
+                <Helmet pageTitle="Bowen Y." />
                 
-                <HeaderTwo logo="symbol-dark" color="color-black"/>
+                <Header logo="symbol-dark" color="color-black"/>
                 
                 {/* Start Slider Area   */}
                 <div className="slider-wrapper">
@@ -121,7 +121,7 @@ class PersonalPortfolio extends Component {
                 {/* End About Area */}
 
                 {/* Start Brand Area  */}
-                <div className="rn-brand-area pb--120 bg_color--1">
+                {/* <div className="rn-brand-area pb--120 bg_color--1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -146,11 +146,11 @@ class PersonalPortfolio extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area  */}
 
                 {/* Start About Area  */}
-                <div className="rn-about-area pb--120 bg_color--1">
+                {/* <div className="rn-about-area pb--120 bg_color--1">
                     <div className="container">
                         <div className="row row--35 align-items-center">
                             <div className="col-lg-6">
@@ -180,11 +180,11 @@ class PersonalPortfolio extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End About Area  */}
 
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area pb--60 bg_color--1">
+                {/* <div className="portfolio-area pb--60 bg_color--1">
                     <div className="portfolio-sacousel-inner mb--55 mb_sm--0">
                         <div className="container">
                             <div className="row">
@@ -208,17 +208,17 @@ class PersonalPortfolio extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Portfolio Area */}
 
                 {/* Start Portfolio Area */}
                 <div className="portfolio-area pb--120 bg_color--1">
-                    <ContactOne />
+                    {/* <ContactOne /> */}
                 </div>
                 {/* End Portfolio Area */}
 
                 {/* Start call To Action  */}
-                <CallAction />
+                {/* <CallAction /> */}
                 {/* End call To Action  */}
 
                 <FooterTwo />

@@ -2,10 +2,10 @@ import React from 'react';
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
+    // {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
+    // {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
+    // {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 
 const FooterTwo = () => {
@@ -17,7 +17,7 @@ const FooterTwo = () => {
                         <div className="inner">
                             <div className="logo text-center text-sm-left mb_sm--20">
                                 <a href="/home-one">
-                                    <img src="/assets/images/logo/logo-light.png" alt="Logo images"/>
+                                    <img src="/assets/images/logo/logo-symbol-dark.png" alt="Logo images"/>
                                 </a>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ const FooterTwo = () => {
                     <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                         <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
                             <div className="text">
-                                <p>Copyright © 2022 Rainbow-Themes. All Rights Reserved.</p>
+                                <p>Copyright © 2022. All Rights Reserved.</p>
                             </div>
                         </div>
                     </div>
