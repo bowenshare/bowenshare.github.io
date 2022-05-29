@@ -56,9 +56,9 @@ class Header extends Component {
                                 </li>
                                 <li className="has-droupdown"><Link to="/service" >Student Life</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/service">Math</Link></li>
-                                        <li><Link to="/service">Reading</Link></li>
-                                        <li><Link to="/service">Writing</Link></li>
+                                        <li><Link to="/math">Math</Link></li>
+                                        <li><Link to="/reading">Reading</Link></li>
+                                        <li><Link to="/writing">Writing</Link></li>
                                     </ul>
                                 </li>
                                 <li className="has-droupdown"><Link to="/service" >Activities</Link>

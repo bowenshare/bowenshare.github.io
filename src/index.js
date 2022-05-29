@@ -14,6 +14,13 @@ import PageScrollTop from './component/PageScrollTop';
 import PersonalPortfolio from './home/PersonalPortfolio';
 
 // Element Layout
+import Math from "./elements/Math";
+import MathDetails from "./elements/MathDetails";
+import Reading from "./elements/Reading";
+import ReadingDetails from "./elements/ReadingDetails";
+import Writing from "./elements/Writing";
+import WritingDetails from "./elements/WritingDetails";
+
 import Service from "./elements/Service";
 import ServiceDetails from "./elements/ServiceDetails";
 import About from "./elements/About";
@@ -51,6 +58,13 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/`} component={PersonalPortfolio}/>
 
                         {/* Element Layot */}
+                        <Route exact path={`${process.env.PUBLIC_URL}/math`} component={Math}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/math-details`} component={MathDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/reading`} component={Reading}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/reading-details`} component={ReadingDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/writing`} component={Writing}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/writing-details`} component={WritingDetails}/>
+
                         <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
