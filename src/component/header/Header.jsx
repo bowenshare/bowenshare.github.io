@@ -57,20 +57,21 @@ class Header extends Component {
                                 <li className="has-droupdown"><Link to="/service" >Student Life</Link>
                                     <ul className="submenu">
                                         <li><Link to="/service">Math</Link></li>
-                                        <li><Link to="/service-details">Reading</Link></li>
-                                        <li><Link to="/service-details">Writing</Link></li>
+                                        <li><Link to="/service">Reading</Link></li>
+                                        <li><Link to="/service">Writing</Link></li>
                                     </ul>
                                 </li>
                                 <li className="has-droupdown"><Link to="/service" >Activities</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/portfolio">Portfolio</Link></li>
-                                        <li><Link to="/portfolio-details">Portfolio Details</Link></li>
+                                        <li><Link to="/portfolio">Chess</Link></li>
+                                        <li><Link to="/portfolio">Teniss</Link></li>
+                                        <li><Link to="/portfolio">Coding & Robotics</Link></li>
                                     </ul>
                                 </li>
                                 <li className="has-droupdown"><Link to="#pages" >Blogs</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/blog">Blog List</Link></li>
-                                        <li><Link to="/blog-details">Blog Details</Link></li>
+                                        <li><Link to="/blog">Blogs</Link></li>
+                                        <li><Link to="/blog">Outings</Link></li>
                                     </ul>
                                 </li>
                                 {/* <li><Link to="/about" >About</Link></li> */}
