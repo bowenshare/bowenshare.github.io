@@ -15,7 +15,8 @@ import PersonalPortfolio from './home/PersonalPortfolio';
 
 // Element Layout
 import Math from "./elements/Math";
-import MathDetails from "./elements/MathDetails";
+import MathCompetitionDetails from "./elements/MathCompetitionDetails";
+import MathLearningDetails from "./elements/MathLearningDetails";
 import Reading from "./elements/Reading";
 import ReadingDetails from "./elements/ReadingDetails";
 import Writing from "./elements/Writing";
@@ -59,7 +60,8 @@ class Root extends Component{
 
                         {/* Element Layot */}
                         <Route exact path={`${process.env.PUBLIC_URL}/math`} component={Math}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/math-details`} component={MathDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/math-competition-details`} component={MathCompetitionDetails}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/math-learning-details`} component={MathLearningDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/reading`} component={Reading}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/reading-details`} component={ReadingDetails}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/writing`} component={Writing}/>

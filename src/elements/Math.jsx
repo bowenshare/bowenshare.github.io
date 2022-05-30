@@ -6,12 +6,11 @@ import ScrollToTop from 'react-scroll-up';
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-
 const MathCompetitionList = [
     {
-        icon: <FiCast />,
+        icon: <img src="/assets/images/service/math-kangaroo.png" alt="Math Kangaroo" />,
         title: 'Math Kangaroo',
-        description: 'Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut.'
+        description: 'Math Kangaroo is an international mathematics competition in over 77 countries. There are six levels of participation, ranging from grade 1 to grade 12.'
     },
     // {
     //     icon: <FiLayers />,
@@ -44,7 +43,7 @@ const MathLearningList = [
     {
         icon: <FiCast />,
         title: 'Beast Acedemy',
-        description: 'Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut.'
+        description: 'Beast Academy is a full math program from Art of Problem Solving for kids ages 6 ~ 13, is also loosely based on the Common Core standards.'
     },
 ]
 
@@ -74,9 +73,10 @@ class Service extends Component{
                         </div>
                         <div className="row service-main-wrapper">
                             {MathCompetitionList.map( (val , i) => (
-                                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                                    <a href="/math-details">
-                                        <div className="service service__style--2 text-left">
+                                // <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
+                                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" key={i}>
+                                    <a className="text-center" href="/math-competition-details">
+                                        <div className="service service__style--2">
                                             <div className="icon">
                                                 {val.icon}
                                             </div>
@@ -94,7 +94,7 @@ class Service extends Component{
                 {/* End Service Area */}
 
                 {/* Start Service Area */}
-                <div className="service-area ptb--120 bg_color--1">
+                {/* <div className="service-area ptb--120 bg_color--1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -107,8 +107,9 @@ class Service extends Component{
                         </div>
                         <div className="row service-main-wrapper">
                             {MathLearningList.map( (val , i) => (
-                                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
-                                    <a className="text-center" href="/service-math">
+                                // <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
+                                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" key={i}>
+                                    <a className="text-center" href="/math-learning-details">
                                         <div className="service service__style--2">
                                             <div className="icon">
                                                 {val.icon}
@@ -123,7 +124,7 @@ class Service extends Component{
                             ))}
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Service Area */}
 
                 {/* Start Back To Top */}
