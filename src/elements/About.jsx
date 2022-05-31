@@ -46,7 +46,7 @@ class About extends Component{
                 {/* End CounterUp Area */}
 
                 {/* Start Finding Us Area  */}
-                <div className="rn-finding-us-area attacment-fixed rn-finding-us ptb--120 bg_color--1 bg_image bg_image--18" data-black-overlay="5">
+                <div className="rn-finding-us-area attacment-fixed rn-finding-us ptb--120 bg_color--1 bg_image bg_image--18" data-black-overlay="1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8 offset-lg-2">

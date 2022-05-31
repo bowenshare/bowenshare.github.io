@@ -29,14 +29,15 @@ class ServiceDetails extends Component{
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
+
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 pt_md--100 pb_md--100 pt_sm--100 pb_sm--100 bg_image bg_image--4"  data-black-overlay="2">
+                <div className="rn-page-title-area pt--120 pb--190 pt_md--100 pb_md--100 pt_sm--100 pb_sm--100 bg_image bg_image--4"  data-black-overlay="1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100 pt_md--50 pt_sm--100">
-                                    {/* <h2 className="title theme-gradient">Math Kangaroo</h2>
-                                    <p>Ranging from grade 1 to grade 12</p> */}
+                                    <h2 className="title theme-gradient">Math Kangaroo</h2>
+                                    <p>Ranging from grade 1 to grade 12</p>
                                 </div>
                             </div>
                         </div>
