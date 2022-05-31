@@ -48,7 +48,7 @@ const MathLearningList = [
 ]
 
 
-class Service extends Component{
+class Math extends Component{
     render(){
         return(
             <React.Fragment>
@@ -94,13 +94,13 @@ class Service extends Component{
                 {/* End Service Area */}
 
                 {/* Start Service Area */}
-                {/* <div className="service-area ptb--120 bg_color--1">
+                <div className="service-area ptb--120 bg_color--1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center mb--30">
                                     <span className="subtitle">My Math</span>
-                                    <h2>Math Learning</h2>
+                                    <h2>Math Activities</h2>
                                     <p>I love math and enjoy all kind of math activties.</p>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ class Service extends Component{
                             {MathLearningList.map( (val , i) => (
                                 // <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
                                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" key={i}>
-                                    <a className="text-center" href="/math-learning-details">
+                                    <a className="text-center" href="">
                                         <div className="service service__style--2">
                                             <div className="icon">
                                                 {val.icon}
@@ -124,7 +124,7 @@ class Service extends Component{
                             ))}
                         </div>
                     </div>
-                </div> */}
+                </div>
                 {/* End Service Area */}
 
                 {/* Start Back To Top */}
@@ -142,4 +142,4 @@ class Service extends Component{
         )
     }
 }
-export default Service;
+export default Math;
