@@ -15,7 +15,7 @@ const SlideList = [
         textPosition: 'text-left',
         category: 'WIN WITH GRACE, LOSE WITH DIGNITY',
         title: 'Hello, I’m <span>Bowen.</span>',
-        description: 'I’m a diligent student.',
+        description: 'How many New Year’s resolutions have you made in your life? This year I want to be more of a thinker. I want to focus more on school study and less bad habits. I will keep my resolution by writing it down.',
         buttonText: '',
         buttonLink: ''
     }
